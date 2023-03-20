@@ -35,6 +35,8 @@ website:
   page-footer: 
     left: "Copyright © 2023, satRdays Team" 
     right: 
+      - icon: globe
+        href: https://satrdays.org
       - icon: github
         href: https://github.com/satrdays
       - icon: twitter 
