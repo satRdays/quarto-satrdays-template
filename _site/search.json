@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "satRdays MyCity, Year",
+    "section": "",
+    "text": "Welcome to satRdays website template.\nTo learn more about this template visit https://github.com/satRdays/quarto-satrdays-template."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#welcome-to-satrdays-website-template.",
+    "href": "index.html#welcome-to-satrdays-website-template.",
+    "title": "satRdays MyCity, Year",
+    "section": "Welcome to satRdays website template.",
+    "text": "Welcome to satRdays website template.\nTo learn more about this template visit https://github.com/satRdays/quarto-satrdays-template."
+  },
+  {
+    "objectID": "index.html#satrdays-mycity",
+    "href": "index.html#satrdays-mycity",
+    "title": "satRdays MyCity, Year",
+    "section": "satRdays MyCity",
+    "text": "satRdays MyCity\n\n21 September, 2023"
+  }
+]
