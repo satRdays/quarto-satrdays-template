@@ -1,0 +1,55 @@
+project:
+  type: website
+
+website:
+  title: "satRday MyCity"
+  sidebar: false
+  navbar:
+    background: light
+    pinned: true
+    right:
+      - href: index.qmd
+        text: Home
+      - text: About
+        menu:
+          - text: satRday conference
+            href: about/about.qmd
+          - text: Organizing committee
+            href: about/organizers.qmd
+          - text: Sponsors
+            href: about/sponsors.qmd
+          - text: Diversity statement
+            href: about/diversity.qmd
+      - text: Program
+        menu: 
+          - text: Schedule
+            href: schedule.qmd
+          - text: Speakers
+            href: speakers.qmd
+      - text: Register
+        href: register.qmd
+      - text: Key dates
+        href: dates.qmd
+      - text: Contact
+        href: contact.qmd
+  page-footer: 
+    left: "Copyright © 2023, satRdays Team" 
+    right: 
+      - icon: github
+        href: https://github.com/satrdays
+      - icon: twitter 
+        href: https://twitter.com/satrdays
+      - icon: envelope
+        href: mailto:city@satrdays.org
+
+format:
+  html:
+    theme: 
+      light: cosmo
+      dark: darkly
+    page-layout: custom
+    css: styles.css
+    toc: false
+
+editor: visual
+
