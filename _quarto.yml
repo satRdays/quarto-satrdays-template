@@ -33,7 +33,8 @@ website:
       - text: Contact
         href: contact.qmd
   page-footer: 
-    left: "Copyright © 2023, satRdays Team" 
+    left: "Proudly supported by R Consortium"
+    center: "Copyright © 2023, satRdays Team" 
     right: 
       - icon: globe
         href: https://satrdays.org

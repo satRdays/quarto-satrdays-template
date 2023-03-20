@@ -19,7 +19,7 @@
 
 .text_block {
   padding: 20px;
-  font-size: 1rem;
+  font-size: 0.95rem;
   background: #50a7ff12;
   margin-left: 20px;
   border-radius: 10px;
@@ -28,8 +28,9 @@
 .img_block {
   margin-right: 20px;
   background-image: url('img/user-conf.png');
+  background-repeat: no-repeat;
   min-height: 350px;
-  min-width: 500px;
+  min-width: 400px;
   border-radius: 10px;
 }
 
