@@ -1,0 +1,19 @@
+---
+title: ""
+---
+
+::: grid
+::: {#about_banner .g-col-12 .title}
+# About satRday Conferences
+:::
+
+::: {.g-col-6 .text_block}
+satRdays are free/cheap accessible R conferences being organised by the community for the community. They happen all over the globe, and are organised by local community leaders to help and grow the local community. 
+
+There is a big emphasis on making these event accessible - by not requiring time off work, by not costing more than a days wages, by being supportive of new community members or leaders.
+:::
+
+::: {.g-col-6 .img_block}
+:::
+
+:::
