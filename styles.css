@@ -1,0 +1,67 @@
+/* css styles */
+
+.navbar ul.dropdown-menu {
+	margin-top: 10px;
+	padding-bottom: 0;
+}
+
+.headroom-target, header.headroom {
+	border-bottom: 1px solid #ddd;
+}
+
+.title {
+  background: #2165b6; 
+  color: white; 
+  padding: 10px; 
+  font-weight: 450;
+  min-height: 200px;
+}
+
+.text_block {
+  padding: 20px;
+  font-size: 1rem;
+  background: #50a7ff12;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.img_block {
+  margin-right: 20px;
+  background-image: url('img/user-conf.png');
+  min-height: 350px;
+  min-width: 500px;
+  border-radius: 10px;
+}
+
+#banner h1 {
+  font-size: 4.5rem !important;
+  font-weight: 450;
+  line-height: 1.2;
+}
+
+#banner {
+  background: #2165b6; 
+  color: white; 
+  padding: 40px; 
+  min-height: 550px;
+  background: linear-gradient(rgba(33, 101, 182, 1), rgba(0, 0, 0, 0.5)),url('img/banner-img.jpg') !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgba(33, 101, 182, 1), rgba(0, 0, 0, 0.5)), url('img/banner-img.jpg') !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner h3 {
+  font-size: 2.5rem !important;
+  border-top: 3px solid #6cacf2;
+  border-bottom: 3px solid #6cacf2;
+  line-height: 1.5;
+}
+
+#quarto-content > .grid {
+  padding-top: 10px !important;
+}
+
+footer.footer .nav-footer, #quarto-header nav {
+	min-height: 50px;
+	background: #50a7ff12;
+}
