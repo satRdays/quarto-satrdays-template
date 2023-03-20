@@ -8,9 +8,15 @@ title: ""
 :::
 
 ::: {.g-col-6 .text_block}
+### What are satRdays?
+
 satRdays are free/cheap accessible R conferences being organised by the community for the community. They happen all over the globe, and are organised by local community leaders to help and grow the local community. 
 
 There is a big emphasis on making these event accessible - by not requiring time off work, by not costing more than a days wages, by being supportive of new community members or leaders.
+
+### satRday MyCity
+
+satRday MyCity will be taking place at MyCity, MyCountry on the 21st September, 2023
 :::
 
 ::: {.g-col-6 .img_block}
