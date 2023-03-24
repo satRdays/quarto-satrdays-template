@@ -2,4 +2,5 @@
 
 The HTML files that are produced after building the Quarto documents can be previewed in the `_site` folder.
 
-![image](https://user-images.githubusercontent.com/11357251/226424888-ea58c318-ae5a-4916-b4fb-39141270b9a7.png)
+![image](https://user-images.githubusercontent.com/11357251/227651674-3623b3aa-b533-4dee-b756-3305c12e9cc2.png)
+
