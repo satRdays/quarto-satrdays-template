@@ -8,4 +8,21 @@ title: ""
 
 ### 21 September, 2023 {style="max-width: fit-content; max-width: -moz-fit-content;"}
 :::
+
+::: {#countdown_container .g-col-12 style="background: #eae3d8; align-items: center;color:#5d5d76; text-align:center; margin-top:-1.25em;"}
+```{=html}
+
+  <div id="countdown">
+    <h6 id="headline"></h6>
+      <ul>
+        <li style=""><span id="days" class="countdown_date"></span>DAYS</li>
+        <li style=""><span id="hours" class="countdown_date"></span>HOURS</li>
+        <li style=""><span id="minutes" class="countdown_date"></span>MINUTES</li>
+        <li style="border-right: 0px;"><span id="seconds" class="countdown_date"></span>SECONDS</li>
+      </ul>
+  </div>
+
+
+```
+:::
 :::

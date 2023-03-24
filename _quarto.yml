@@ -6,7 +6,7 @@ website:
   title: "satRday MyCity"
   sidebar: false
   navbar:
-    background: light
+    background: light # or your hex color
     pinned: true
     right:
       - href: index.qmd
@@ -21,6 +21,8 @@ website:
             href: about/sponsors.qmd
           - text: Diversity statement
             href: about/diversity.qmd
+          - text: Code of Conduct
+            href: about/coc.qmd
       - text: Program
         menu: 
           - text: Schedule
@@ -29,8 +31,14 @@ website:
             href: speakers.qmd
       - text: Register
         href: register.qmd
-      - text: Key dates
-        href: dates.qmd
+      - text: Participation
+        menu: 
+          - text: Call for Abstracts
+            href: participation/call.qmd
+          - text: Code of Conduct
+            href: participation/coc.qmd
+          - text: Key dates
+            href: participation/dates.qmd
       - text: Contact
         href: contact.qmd
   page-footer: 
@@ -51,6 +59,8 @@ format:
     theme: 
       light: cosmo
       dark: darkly
+    include-after-body:
+      - countdown.js
     page-layout: custom
     css: styles.css
     toc: false
