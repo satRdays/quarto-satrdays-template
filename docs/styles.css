@@ -7,6 +7,7 @@
 
 .headroom-target, header.headroom {
 	border-bottom: 1px solid #ddd;
+	background: #50a7ff12;
 }
 
 .title {
@@ -36,8 +37,14 @@
 
 #banner h1 {
   font-size: 4.5rem !important;
-  font-weight: 450;
+  font-weight: 510;
   line-height: 1.2;
+}
+
+#banner h2 {
+  font-size: 2.5rem !important;
+  font-weight: 400;
+  border: none;
 }
 
 #banner {
@@ -65,4 +72,25 @@
 footer.footer .nav-footer, #quarto-header nav {
 	min-height: 50px;
 	background: #50a7ff12;
+}
+
+#countdown li {
+  display: inline-block; 
+  font-size: 1.2em;
+  list-style-type: none;
+  padding:0.8em; 
+  border-right: 1px solid #d4d0d0;
+}
+
+.countdown_date {
+  display:block;
+  font-size: 2.3em;
+  font-weight:bold;
+}
+
+#headline {
+  color:#5d5d76; 
+  
+  font-size:1.3em; 
+  font-weight:bold;
 }

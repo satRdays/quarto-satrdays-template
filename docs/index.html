@@ -105,6 +105,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="./about/diversity.qmd">
  <span class="dropdown-text">Diversity statement</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./about/coc.qmd">
+ <span class="dropdown-text">Code of Conduct</span></a>
+  </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
@@ -126,10 +130,25 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./register.qmd">
  <span class="menu-text">Register</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./dates.qmd">
- <span class="menu-text">Key dates</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-participation" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Participation</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-participation">    
+        <li>
+    <a class="dropdown-item" href="./participation/call.qmd">
+ <span class="dropdown-text">Call for Abstracts</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./participation/coc.qmd">
+ <span class="dropdown-text">Code of Conduct</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./participation/dates.qmd">
+ <span class="dropdown-text">Key dates</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./contact.qmd">
  <span class="menu-text">Contact</span></a>
@@ -160,11 +179,69 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 </div>
+<div id="countdown_container" class="g-col-12" style="background: #eae3d8; align-items: center;color:#5d5d76; text-align:center; margin-top:-1.25em;">
+
+  <div id="countdown">
+    <h6 id="headline"></h6>
+      <ul>
+        <li style=""><span id="days" class="countdown_date"></span>DAYS</li>
+        <li style=""><span id="hours" class="countdown_date"></span>HOURS</li>
+        <li style=""><span id="minutes" class="countdown_date"></span>MINUTES</li>
+        <li style="border-right: 0px;"><span id="seconds" class="countdown_date"></span>SECONDS</li>
+      </ul>
+  </div>
+
+
+</div>
 </div>
 
 
 
 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script>
+
+//countdown timer
+(function () {
+  const second = 1000,
+        minute = second * 60,
+        hour = minute * 60,
+        day = hour * 24;
+
+  let deadline = "Sept 21, 2023 23:59:00",
+        countDown = new Date(deadline).getTime(),
+      x = setInterval(function() {    
+
+        let now = new Date().getTime(),
+            distance = countDown - now;
+
+        document.getElementById("days").innerText = Math.floor(distance / (day)),
+          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+        //do something later when date is reached
+        if (distance < 0) {
+           headline = document.getElementById("headline");
+		document.getElementById("days").innerText = 0;
+		document.getElementById("hours").innerText = 0;
+		document.getElementById("minutes").innerText = 0;
+		document.getElementById("seconds").innerText = 0;
+           //countdown = document.getElementById("countdown");
+           //content = document.getElementById("content");
+
+          headline.innerText = "THE CONFERENCE IS ONGOING!";
+		document.getElementById("btn_store").disabled = true
+          //countdown.style.display = "none";
+          //content.style.display = "block";
+
+          clearInterval(x);
+        }
+        //seconds
+      }, 0)
+  }());
+    </script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
