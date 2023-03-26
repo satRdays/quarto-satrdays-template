@@ -8,7 +8,7 @@ title: ""
 
 ### 21 September, 2023 {style="max-width: fit-content; max-width: -moz-fit-content;"}
 
-#### Come join as live @ Pixi Hotel MyCity
+#### Come join as live \@ Pixi Hotel MyCity
 :::
 
 ::: {#countdown_container .g-col-12 style="background: #eae3d8; align-items: center;color:#5d5d76; text-align:center; margin-top:-1.25em;"}
