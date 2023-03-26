@@ -60,9 +60,9 @@ format:
       light: cosmo
       dark: darkly
     include-after-body:
-      - countdown.js
+      - js/countdown.js
     page-layout: custom
-    css: styles.css
+    css: css/styles.css
     toc: false
 
 editor: visual

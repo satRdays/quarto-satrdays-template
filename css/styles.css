@@ -12,8 +12,8 @@
 
 .title {
   background: #2165b6; 
-  background: linear-gradient(rgba(33, 101, 182,0.95), rgba(33, 101, 182,0.3)),url('img/background.png') !important;  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(rgba(33, 101, 182,0.95), rgba(33, 101, 182, 0.3)), url('img/background.png') !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(rgba(33, 101, 182,0.95), rgba(33, 101, 182,0.3)),url('../img/background.png') !important;  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(rgba(33, 101, 182,0.95), rgba(33, 101, 182, 0.3)), url('../img/background.png') !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
   background-size: contain;
   color: white; 
@@ -32,8 +32,8 @@
 
 .img_block {
   margin-right: 20px;
-  background-image: url('img/user-conf.png');
-  background-repeat: no-repeat;
+  /*background-image: url('img/user-conf.png');
+  background-repeat: no-repeat;*/
   min-height: 350px;
   min-width: 400px;
   border-radius: 10px;
@@ -56,8 +56,8 @@
   color: white; 
   padding: 40px; 
   min-height: 550px;
-  background: linear-gradient(rgba(33, 101, 182, 1), rgba(0, 0, 0, 0.5)),url('img/banner-img.jpg') !important;  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(rgba(33, 101, 182, 1), rgba(0, 0, 0, 0.5)), url('img/banner-img.jpg') !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(rgba(33, 101, 182, 1), rgba(0, 0, 0, 0.5)),url('../img/banner-img.jpg') !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgba(33, 101, 182, 1), rgba(0, 0, 0, 0.5)), url('../img/banner-img.jpg') !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-repeat: no-repeat;
     background-size: cover;
 }
