@@ -21,8 +21,6 @@ website:
             href: about/sponsors.qmd
           - text: Diversity statement
             href: about/diversity.qmd
-          - text: Code of Conduct
-            href: about/coc.qmd
       - text: Program
         menu: 
           - text: Schedule
