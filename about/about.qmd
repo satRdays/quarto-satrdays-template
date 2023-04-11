@@ -1,5 +1,5 @@
 ---
-title: ""
+pagetitle: "About satRday MyCity"
 ---
 
 ::: grid
