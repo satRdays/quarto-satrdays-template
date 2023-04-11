@@ -1,5 +1,9 @@
 ---
 title: ""
+format:
+  html:
+    include-after-body:
+      - js/countdown.js
 ---
 
 ::: grid

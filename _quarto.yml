@@ -55,8 +55,6 @@ format:
     theme: 
       light: cosmo
       dark: darkly
-    include-after-body:
-      - js/countdown.js
     page-layout: custom
     css: css/styles.css
     toc: false
