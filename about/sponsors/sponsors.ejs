@@ -3,7 +3,7 @@
       <h1 id="sponsorTitle" data-default-title="<strong>Our Sponsors</strong>"><strong>Our Sponsors</strong></h1>
       <ul>
         <% for (const item of items) { %>
-							<li><a href="<%- item.href %>" class="sblogos__link"><img class="sblogos__img" src="<%- item.thumbnail %>" alt="sponsor logo" /></a></li>
+							<li><a href="<%- item.href %>" target="_blank" class="sblogos__link"><img class="sblogos__img" src="<%- item.thumbnail %>" alt="<%= item.name %> logo" /></a></li>
         <% } %>
       </ul>
     </div>
