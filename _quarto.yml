@@ -18,9 +18,7 @@ website:
           - text: Organizing committee
             href: about/organizers.qmd
           - text: Sponsors
-            href: about/sponsors.qmd
-          - text: Diversity statement
-            href: about/diversity.qmd
+            href: about/sponsors/sponsors.qmd
       - text: Program
         menu: 
           - text: Schedule
