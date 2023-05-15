@@ -1,0 +1,14 @@
+```{=html}
+  <div id="countdown">
+    <h6 id="headline"></h6>
+      <ul>
+        <li style=""><span id="days" class="countdown_date"></span>DAYS</li>
+        <li style=""><span id="hours" class="countdown_date"></span>HOURS</li>
+        <li style=""><span id="minutes" class="countdown_date"></span>MINUTES</li>
+        <li style="border-right: 0px;"><span id="seconds" class="countdown_date"></span>SECONDS</li>
+      </ul>
+      <% for (const item of items) { %>
+        <div id = "countdownDate" hidden><%= item.datetime %></div>
+      <% } %>
+  </div>
+```

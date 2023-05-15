@@ -9,7 +9,8 @@
         hour = minute * 60,
         day = hour * 24;
 
-  let deadline = "Sept 21, 2023 23:59:00",
+  let deadline = document.getElementById("countdownDate").innerText//"Sept 21, 2023 23:59:00",
+  console.log(deadline);
         countDown = new Date(deadline).getTime(),
       x = setInterval(function() {    
 

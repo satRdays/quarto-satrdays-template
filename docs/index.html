@@ -29,6 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -59,7 +61,37 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-countdown .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-datetime',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-datetime"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-countdown'] = new List('listing-countdown', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -174,8 +206,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 </div>
-<div id="countdown_container" class="g-col-12" style="background: #eae3d8; align-items: center;color:#5d5d76; text-align:center; margin-top:-1.25em;">
-
+<div id="listing-countdown" class="g-col-12 quarto-listing quarto-listing-container-custom" style="background: #eae3d8; align-items: center;color:#5d5d76; text-align:center; margin-top:-1.25em;">
   <div id="countdown">
     <h6 id="headline"></h6>
       <ul>
@@ -184,9 +215,14 @@ ul.task-list li input[type="checkbox"] {
         <li style=""><span id="minutes" class="countdown_date"></span>MINUTES</li>
         <li style="border-right: 0px;"><span id="seconds" class="countdown_date"></span>SECONDS</li>
       </ul>
+        <div id="countdownDate" hidden="">Sept 21, 2023 23:59:00</div>
   </div>
+<div class="listing-no-matching d-none">
+No matching items
 </div>
 </div>
+</div>
+
 
 
 
@@ -202,7 +238,8 @@ ul.task-list li input[type="checkbox"] {
         hour = minute * 60,
         day = hour * 24;
 
-  let deadline = "Sept 21, 2023 23:59:00",
+  let deadline = document.getElementById("countdownDate").innerText//"Sept 21, 2023 23:59:00",
+  console.log(deadline);
         countDown = new Date(deadline).getTime(),
       x = setInterval(function() {    
 
