@@ -1,0 +1,20 @@
+---
+pagetitle: "Registration"
+---
+
+::: grid
+::: {#about_banner .g-col-12 .title}
+# Registration
+:::
+
+::: {.g-col-6 .text_block}
+### Registration
+
+Please register for the conference at: [satrdays.org](https://satrdays.org)
+
+:::
+
+::: g-col-6
+![](/img/user-conf.png){.img_block width="100%"}
+:::
+:::
