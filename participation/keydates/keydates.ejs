@@ -1,0 +1,15 @@
+```{=html}
+<div class='schedule_container'>
+        <% for (const item of items) { %>
+							<div class="schedule_row">
+                <div class="schedule_column_time">
+                  <p><strong><%= item.date %></strong></p>
+                </div>
+                <div class="schedule_column_talk">
+                  <p><%= item.activity %></p>
+                </div>
+                
+              </div>
+        <% } %>
+</div>
+```

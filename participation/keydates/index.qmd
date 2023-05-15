@@ -1,0 +1,29 @@
+---
+pagetitle: "Key Dates"
+
+listing:
+  - id: keydates
+    template: keydates.ejs
+    contents: keydates.yml
+---
+
+::: grid
+::: {#sponsors_banner .g-col-12 .title}
+# Important Dates
+:::
+
+::: {.g-col-12 style="margin-left: 2%;"}
+The important dates are highlighted below.
+:::
+
+::: {#keydates .g-col-6}
+:::
+
+::: g-col-6
+![](/img/conf-image.jpg){.img_block width="100%"}
+:::
+
+<div>
+
+</div>
+:::
