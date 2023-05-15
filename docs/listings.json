@@ -4,6 +4,10 @@
     "items": []
   },
   {
+    "listing": "/index.html",
+    "items": []
+  },
+  {
     "listing": "/participation/keydates/index.html",
     "items": []
   },
@@ -13,10 +17,6 @@
   },
   {
     "listing": "/program/speakers/index.html",
-    "items": []
-  },
-  {
-    "listing": "/index.html",
     "items": []
   }
 ]
