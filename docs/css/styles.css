@@ -178,3 +178,45 @@ footer.footer .nav-footer, #quarto-header nav {
     margin: 15px 5px 0px;
   }
 }
+
+
+* {
+  box-sizing: border-box;
+}
+
+.schedule_container {
+  width: 100%;
+  background: #fff;
+  margin-left: 2%;
+}
+
+/* Create two equal columns that floats next to each other */
+.schedule_column_time {
+  float: left;
+  width: 30%;
+  padding: 20px;
+  align-content: center;
+  margin: 1px;
+  background: #cbe3fd;
+  color: #494F57;
+  height: 80px; /* Should be removed. Only for demonstration */
+}
+
+.schedule_column_talk {
+  float: left;
+  width: 69%;
+  padding: 10px;
+  align-content: center;
+  margin: 1px;
+  background: #dfecfa;
+  color: #494F57;
+  height: 80px; /* Should be removed. Only for demonstration */
+}
+
+
+/* Clear floats after the columns */
+.schedule_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
