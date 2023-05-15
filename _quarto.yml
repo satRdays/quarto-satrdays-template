@@ -22,19 +22,19 @@ website:
       - text: Program
         menu: 
           - text: Schedule
-            href: schedule.qmd
+            href: program/schedule/
           - text: Speakers
-            href: speakers.qmd
+            href: program/speakers/
       - text: Register
         href: register.qmd
       - text: Participation
         menu: 
-          - text: Call for Abstracts
+          - text: Call for Submissions
             href: participation/call.qmd
           - text: Code of Conduct
             href: participation/coc.qmd
           - text: Key dates
-            href: participation/dates.qmd
+            href: participation/keydates/
       - text: Contact
         href: contact.qmd
   page-footer: 
