@@ -1,0 +1,20 @@
+---
+pagetitle: "Speakers"
+
+listing:
+  - id: speakers
+    template: speakers.ejs
+    contents: speakers.yml
+---
+
+::: grid
+::: {#sponsors_banner .g-col-12 .title}
+# Speakers
+:::
+
+::: {#speakers .g-col-12}
+:::
+
+
+<div></div>
+:::

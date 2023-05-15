@@ -1,0 +1,20 @@
+```{=html}
+<div class='schedule_container'>
+        <% for (const item of items) { %>
+							<div class="schedule_row">
+                <div class="schedule_column_time">
+                  <p><strong><%= item.time %></strong></p>
+                </div>
+                <div class="schedule_column_talk">
+                  <p><i><%= item.talk %></i>
+                    <br/>
+                    <%if (item.speaker) { %>
+                      <strong>Speaker: </strong><i><%= item.speaker %></i>
+                     <% } %>
+                  </p>
+                </div>
+                
+              </div>
+        <% } %>
+</div>
+```

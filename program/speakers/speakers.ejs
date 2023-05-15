@@ -1,0 +1,16 @@
+```{=html}
+<div class='sponsorsFooter'>
+      <h1 id="sponsorTitle" data-default-title="<strong>Speakers</strong>"><strong>Speakers</strong></h1>
+      <ul>
+        <% for (const item of items) { %>
+							<li><a href="<%- item.href %>" target="_blank" class=""><img width="200" height="200" style="border-radius: 40%;" class="" src="<%- item.thumbnail %>" alt="<%= item.name %> picture" /></a>
+							
+							<p><strong> <%= item.name %> </strong> <br/>
+						  	<%= item.affiliation %>
+							</p>
+							</li>
+        <% } %>
+      </ul>
+    </div>
+</div>
+```

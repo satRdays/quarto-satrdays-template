@@ -1,0 +1,21 @@
+    - time: 08:00 UTC - 09:00 UTC
+      talk: How to build a satRday website
+      speaker: John Doe
+    - time: 09:05 UTC - 10:00 UTC
+      talk: How to build a satRday website
+      speaker: John Doe
+    - time: 12:00 UTC - 13:00 UTC
+      talk: Lunch Break
+      speaker:
+    - time: 14:00 UTC - 15:00 UTC
+      talk: How to build a satRday website
+      speaker: John Doe
+    - time: 16:00 UTC - 16:30 UTC
+      talk: How to build a satRday website
+      speaker: John Doe
+    - time: 16:35 UTC - 17:05 UTC
+      talk: Dinner break
+      speaker:
+    - time: 17:10 UTC - 18:40 UTC
+      talk: How to build a satRday website
+      speaker: John Doe
