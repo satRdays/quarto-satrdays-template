@@ -220,3 +220,13 @@ footer.footer .nav-footer, #quarto-header nav {
   display: table;
   clear: both;
 }
+
+
+#listing-countdown {
+  background: #eae3d8; 
+  align-items: center;
+  color:#5d5d76; 
+  text-align:center;
+  margin-top:-1.25em;
+  margin-bottom: 0.5em;
+}

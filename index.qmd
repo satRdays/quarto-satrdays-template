@@ -21,7 +21,7 @@ listing:
 #### Come join us live \@ Pixi Hotel MyCity
 :::
 
-::: {#countdown .g-col-12 style="background: #eae3d8; align-items: center;color:#5d5d76; text-align:center; margin-top:-1.25em;"}
+::: {#countdown .g-col-12}
 :::
 
 :::
