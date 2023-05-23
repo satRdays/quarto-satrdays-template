@@ -9,7 +9,10 @@ listing:
   - id: countdown
     template: countdown.ejs
     contents: 
-      - datetime: Sept 21, 2023 23:59:00
+      - datetime: Sept 21, 2024 23:59:00
+  - id: sponsors
+    template: about/sponsors/sponsors.ejs
+    contents: about/sponsors/sponsors.yml
 ---
 
 ::: grid
@@ -22,6 +25,24 @@ listing:
 :::
 
 ::: {#countdown .g-col-12}
+:::
+
+::: {.g-col-6 .text_block}
+### About MyCity?
+MyCity is the most international city in Mars, as it is where the Global seat of the UN is based. Even the International People's Group directs its humanitarian campaigns from here. Besides being a congress city, MyCity is also a centre for culture and history, for trade fairs and exhibitions.
+
+A rewarding excursion destination is Mount XYZ, which is situated in neighboring Jupiter The cableway lifts visitors to an altitude of 1100 metres in less than five minutes, giving rise to outstanding vistas across the MyCity, ABC horizons and XYC landscapes
+
+### satRday MyCity
+
+satRday MyCity will be taking place at MyCity, MyCountry on the 21st September, 2024
+:::
+
+::: g-col-6
+![](/img/mycity.jpg){.img_block width="100%"}
+:::
+
+::: {#sponsors .g-col-12}
 :::
 
 :::
