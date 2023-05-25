@@ -7,7 +7,7 @@
 
 .headroom-target, header.headroom {
 	border-bottom: 1px solid #ddd;
-	background: #ebf3ffe8;
+	background: #ebf3ff7a;
 }
 
 .title {
@@ -25,7 +25,7 @@
 .text_block {
   padding: 20px;
   font-size: 0.95rem;
-  background: #ebf3ffe8;
+  background: #50a7ff12;
   margin-left: 20px;
   border-radius: 10px;
 }
@@ -75,7 +75,7 @@
 
 footer.footer .nav-footer, #quarto-header nav {
 	min-height: 50px;
-	background: #ebf3ffe8;
+	background: #50a7ff12;
 }
 
 #countdown li {
