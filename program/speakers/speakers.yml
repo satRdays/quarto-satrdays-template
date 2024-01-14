@@ -2,15 +2,36 @@
       affiliation: R Consortium
       href: https://example.com
       thumbnail: img/user.png
+      social: 
+      - website: https://satrdays.org
+      - github: https://github.com/satrdays
+      - twitter: https://twitter.com/satrdays
+      - linkedin: https://linkedin.com
+      - mastodon: https://mastodon.com
     - name: Sarah Doe
       affiliation: R Consortium
       href: https://example.com
       thumbnail: img/user.png
+      social: 
+      - website: https://satrdays.org
+      - github: https://github.com/satrdays
+      - twitter: https://twitter.com/satrdays
+      - linkedin: https://linkedin.com
     - name: John Doe
       affiliation: R Consortium
       href: https://example.com
       thumbnail: img/user.png
+      social: 
+      - website: https://satrdays.org
+      - github: https://github.com/satrdays
+      - twitter: https://twitter.com/satrdays
+      - linkedin: https://linkedin.com
     - name: Sarah Doe
       affiliation: R Consortium
       href: https://example.com
       thumbnail: img/user.png
+      social: 
+      - website: https://satrdays.org
+      - github: https://github.com/satrdays
+      - twitter: https://twitter.com/satrdays
+      - facebook: https://facebook.com

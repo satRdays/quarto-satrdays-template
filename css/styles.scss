@@ -205,6 +205,10 @@ footer.footer .nav-footer, #quarto-header nav {
   display: inline-block;
 }
 
+.sponsorsFooter ul li .socialIcons{
+  margin: 2px 5px 0px;
+	display: inline-block;
+}
 
 @media(max-width: 750px) {
   .sponsorsFooter img { max-width: 70px; }
