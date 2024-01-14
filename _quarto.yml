@@ -53,10 +53,9 @@ website:
 format:
   html:
     theme: 
-      light: cosmo
+      light: [cosmo, css/styles.scss]
       dark: darkly
     page-layout: custom
-    css: css/styles.css
     toc: false
 
 editor: visual
