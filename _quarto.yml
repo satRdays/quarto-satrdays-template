@@ -29,9 +29,9 @@ website:
         href: register.qmd
       - text: Participation
         menu: 
-          - text: Call for Submissions
+          - text: Call for submissions
             href: participation/call.qmd
-          - text: Code of Conduct
+          - text: Code of conduct
             href: participation/coc.qmd
           - text: Key dates
             href: participation/keydates/
@@ -39,7 +39,6 @@ website:
         href: contact.qmd
   page-footer: 
     left: "Proudly supported by R Consortium"
-    center: "Copyright © 2023, satRdays Team" 
     right: 
       - icon: globe
         href: https://satrdays.org
