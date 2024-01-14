@@ -19,11 +19,9 @@ The important dates are highlighted below.
 ::: {#keydates .g-col-6}
 :::
 
-::: g-col-6
+::: {.g-col-6 .img_margin}
 ![](/img/conf-image.jpg){.img_block width="100%"}
 :::
 
-<div>
-
-</div>
+<div></div>
 :::

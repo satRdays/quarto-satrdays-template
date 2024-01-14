@@ -11,10 +11,11 @@ pagetitle: "Code of Conduct"
 ### Code of Conduct
 
 satRdays is dedicated to providing a harassment-free experience for participants at all of our events. We encourage all submitters to review our complete [Code of Conduct](https://events.linuxfoundation.org/r-medicine/attend/code-of-conduct/).
-
 :::
 
-::: g-col-6
+::: {.g-col-6 .img_margin}
 ![](/img/user-conf.png){.img_block width="100%"}
 :::
+
+<div></div>
 :::

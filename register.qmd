@@ -11,10 +11,9 @@ pagetitle: "Registration"
 ### Registration
 
 Please register for the conference at: [satrdays.org](https://satrdays.org)
-
 :::
 
-::: g-col-6
+::: {.g-col-6 .img_margin}
 ![](/img/user-conf.png){.img_block width="100%"}
 :::
 :::

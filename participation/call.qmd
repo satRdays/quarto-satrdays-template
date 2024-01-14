@@ -10,33 +10,29 @@ pagetitle: "Call for Submissions"
 ::: {.g-col-6 .text_block}
 ### Call for submissions
 
-We invite R users and developers from around our region and the world to submit abstracts to contribute to our satRday conference. We expect a wide range of exciting talks, innovative lightning talks, horizon-expanding discussion panels, and productive incubators. 
-
-
+We invite R users and developers from around our region and the world to submit abstracts to contribute to our satRday conference. We expect a wide range of exciting talks, innovative lightning talks, horizon-expanding discussion panels, and productive incubators.
 
 We welcome submissions related to R from any disciplinary background, whether the work is computational, empirical, or theoretical in nature. Regardless of your career level, you are encouraged to submit your work.
 
-
 ### Suggested Topics
 
- - Data visualization
- - Data mining, Machine learning, Deep Learning and AI
- - Databases / Data management
- - Statistical models 
- - Spatial Analysis
- - Reproducible Research
- - Teaching R / R in Teaching
- - Web Applications (Shiny, Dashboards)
- - Efficient programming
- - R in production 
- - Community and Outreach
- - Bioinformatics / Biomedical or health informatics
- - Biostatistics / Epidemiology
- - Economics / Finance / Insurance
- - Social sciences
- - Environmental sciences 
- - Many more
- 
+-   Data visualization
+-   Data mining, Machine learning, Deep Learning and AI
+-   Databases / Data management
+-   Statistical models
+-   Spatial Analysis
+-   Reproducible Research
+-   Teaching R / R in Teaching
+-   Web Applications (Shiny, Dashboards)
+-   Efficient programming
+-   R in production
+-   Community and Outreach
+-   Bioinformatics / Biomedical or health informatics
+-   Biostatistics / Epidemiology
+-   Economics / Finance / Insurance
+-   Social sciences
+-   Environmental sciences
+-   Many more
 
 ### More Text
 
@@ -44,13 +40,14 @@ Provide more information on category and kind of submissions that are to be expe
 
 ### Submission Types
 
- - Session Presentations (typically 20 mins long)
- - Lightning Talk (typically 10 mins long)
- - Panel Discussion (typically 30 mins long)
-
+-   Session Presentations (typically 20 mins long)
+-   Lightning Talk (typically 10 mins long)
+-   Panel Discussion (typically 30 mins long)
 :::
 
-::: g-col-6
+::: {.g-col-6 .img_margin}
 ![](/img/user-conf.png){.img_block width="99%"}
 :::
+
+<div></div>
 :::
