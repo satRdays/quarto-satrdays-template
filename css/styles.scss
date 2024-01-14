@@ -1,0 +1,262 @@
+/*-- scss:defaults --*/
+
+$body-bg:    #fff;
+$primary:    #88398a;
+$countdown-bg: rgba($primary, .2);
+$countdown-color: #5d5d76;
+$banner-img: './img/banner-img.jpg';
+$banner-text-position: center;
+$title-bg-img: './img/background.png';
+
+
+
+/*-- scss:rules --*/
+
+.navbar ul.dropdown-menu {
+	margin-top: 10px;
+	padding-bottom: 0;
+}
+
+.headroom-target, header.headroom {
+	border-bottom: 1px solid #ddd;
+	background:rgba($primary, .15);
+}
+
+.title {
+  background: $primary; 
+  background: linear-gradient($primary, rgba(0, 0, 0, 0.5)),url($title-bg-img) !important;  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient($primary, rgba(0, 0, 0, 0.5)), url($title-bg-img) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: white; 
+  padding: 10px; 
+  font-weight: 450;
+  min-height: 220px;
+}
+
+.text_block {
+  padding: 20px;
+  font-size: 0.95rem;
+  background: rgba($primary, .08);
+  margin-left: 5%;
+  border-radius: 5px;
+}
+
+
+.full_text_block {
+  padding: 20px;
+  font-size: 0.95rem;
+  background: rgba($primary, .08);
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  border-radius: 5px;
+}
+
+.img_block {
+  min-height: 350px;
+  min-width: 400px;
+  border-radius: 5px;
+}
+
+.img_margin {
+  margin-right: 5%;
+  align-items: center;
+}
+
+.display_grid {
+  display: grid;
+  
+}
+#banner h1 {
+  font-size: 4.5rem !important;
+  font-weight: 510;
+  line-height: 1.2;
+}
+
+#banner h2 {
+  font-size: 2.5rem !important;
+  font-weight: 400;
+  border: none;
+}
+
+#banner {
+  background: $primary; 
+  color: white; 
+  padding: 40px; 
+  min-height: 550px;
+  background: linear-gradient($primary, rgba(0, 0, 0, 0.5)),url($banner-img) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient($primary, rgba(0, 0, 0, 0.5)), url($banner-img) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    justify-content: $banner-text-position;
+    align-content: $banner-text-position;
+}
+
+#banner h3 {
+  font-size: 2.5rem !important;
+  border-top: 3px solid rgba(white, .5);
+  border-bottom: 3px solid rgba(white, .5);
+  line-height: 1.5;
+}
+
+#quarto-content > .grid {
+  padding-top: 10px !important;
+}
+
+footer.footer .nav-footer, #quarto-header nav {
+	min-height: 50px;
+	background: rgba($primary, .18);
+}
+
+#countdown li {
+  display: inline-block; 
+  font-size: 1.2em;
+  list-style-type: none;
+  padding:0.8em; 
+  border-right: 1px solid #d4d0d0;
+}
+
+.countdown_date {
+  display:block;
+  font-size: 2.3em;
+  font-weight:bold;
+}
+
+#headline {
+  color:#5d5d76; 
+  font-size:1.3em; 
+  font-weight:bold;
+}
+
+
+/* Sponsors */
+
+.sponsorsFooter {
+  width: 100%;
+  height: auto;
+  padding: 10px 0 10px;
+  margin-top: 0px;
+  z-index: 1 !important;
+  text-align: center !important;
+}
+
+.sponsorsFooter h1 {
+  font-weight: 300 !important;
+  color: #434A54 !important;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.sponsorsFooter h1 > strong { font-weight: 700 !important;}
+
+.sponsorsFooter img {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  height: auto;
+  vertical-align: middle;
+  max-width: 250px;
+}
+
+.sponsorsFooter ul {
+  padding: 0;
+  margin: 15px 0 0 0;
+  list-style: none;
+  display: block;
+}
+
+.sponsorsFooter ul.enter > span:not(.hover) {
+  opacity: .1;
+}
+
+.sponsorsFooter ul.enter > span.hover {
+  opacity: 1;
+  box-shadow: inset -1px 0 0 0 rgba(0, 0, 0, .1), inset 1px 0 0 0 rgba(0, 0, 0, .1);
+}
+
+.sponsorsFooter ul span {
+  display: inline !important;
+  background: white;
+  word-break: break-all;
+  word-wrap: break-word;
+  margin: 0px;
+  padding: 26px 0;
+  -webkit-transition: opacity 0.25s ease;
+  -moz-transition: opacity 0.25s ease;
+  -ms-transition: opacity 0.25s ease;
+  -o-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+}
+
+.sponsorsFooter ul span,
+.sponsorsFooter ul span li > a {
+  
+  border: none !important;
+  outline: 0 !important;
+  text-decoration: none !important;
+}
+
+.sponsorsFooter ul li {
+  margin: 5px 65px 0px;
+  display: inline-block;
+}
+
+
+@media(max-width: 750px) {
+  .sponsorsFooter img { max-width: 70px; }
+  .sponsorsFooter ul li {
+    margin: 15px 5px 0px;
+  }
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.schedule_container {
+  width: 100%;
+  background: rgba($primary, .05);
+  margin-left: 2%;
+}
+
+/* Create two equal columns that floats next to each other */
+.schedule_column_time {
+  float: left;
+  width: 30%;
+  padding: 20px;
+  align-content: center;
+  margin: 1px;
+  background: rgba($primary, .3);
+  color: #494F57;
+  height: 80px; /* Should be removed. Only for demonstration */
+}
+
+.schedule_column_talk {
+  float: left;
+  width: 69%;
+  padding: 10px;
+  align-content: center;
+  margin: 1px;
+  background: rgba($primary, .15);
+  color: #494F57;
+  height: 80px; /* Should be removed. Only for demonstration */
+}
+
+
+/* Clear floats after the columns */
+.schedule_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+#listing-countdown {
+  background: $countdown-bg; 
+  align-items: center;
+  color: $countdown-color; 
+  text-align:center;
+  margin-top:-1.25em;
+  margin-bottom: 0.5em;
+}
