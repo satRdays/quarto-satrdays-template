@@ -15,6 +15,5 @@ listing:
 ::: {#speakers .g-col-12}
 :::
 
-
 <div></div>
 :::
