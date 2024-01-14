@@ -12,6 +12,10 @@ $title-bg-img: './img/background.png';
 
 /*-- scss:rules --*/
 
+body {
+  background: $body-bg;
+}
+
 .navbar ul.dropdown-menu {
 	margin-top: 10px;
 	padding-bottom: 0;
