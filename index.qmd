@@ -16,6 +16,7 @@ listing:
 ---
 
 ::: grid
+
 ::: {#banner .g-col-12}
 # satRday MyCity
 
@@ -38,9 +39,14 @@ A rewarding excursion destination is Mount XYZ, which is situated in neighboring
 satRday MyCity will be taking place at MyCity, MyCountry on the 21st September, 2024
 :::
 
-::: g-col-6
+::: {.g-col-6 .img_margin}
 ![](/img/mycity.jpg){.img_block width="100%"}
 :::
+
+::: {.g-col-12 .full_text_block}
+This is a full width text or image section
+:::
+
 
 ::: {#sponsors .g-col-12}
 :::
