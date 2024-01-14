@@ -7,7 +7,7 @@ website:
   sidebar: false
   navbar:
     background: light # or your hex color
-    pinned: true
+    pinned: false
     right:
       - href: index.qmd
         text: Home
