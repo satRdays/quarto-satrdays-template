@@ -6,11 +6,13 @@ website:
   title: "satRday MyCity"
   sidebar: false
   navbar:
-    background: light # or your hex color
+    background: light
     pinned: false
     right:
       - href: index.qmd
         text: Home
+      - href: index2.qmd
+        text: Home 2
       - text: About
         menu:
           - text: satRday conference
