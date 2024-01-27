@@ -7,7 +7,8 @@ $countdown-color: #5d5d76;
 $banner-img: './img/banner-img.jpg';
 $banner-text-position: center;
 $title-bg-img: './img/background.jpg';
-
+$title-text-h-position: left;
+$title-text-v-position: center;
 
 
 /*-- scss:rules --*/
@@ -46,8 +47,8 @@ body {
   padding: 10px;
   min-height: 250px;
   display: grid;
-  justify-content: initial;
-  align-content: center;
+  justify-content: $title-text-h-position;
+  align-content: $title-text-v-position;
 }
 
 .title h1 {
