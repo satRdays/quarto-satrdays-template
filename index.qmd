@@ -16,8 +16,7 @@ listing:
 ---
 
 ::: grid
-
-::: {#banner .g-col-12}
+::: {#banner_small .g-col-12}
 # satRday MyCity
 
 ### 21 September, 2023 {style="max-width: fit-content; max-width: -moz-fit-content;"}
@@ -30,6 +29,7 @@ listing:
 
 ::: {.g-col-6 .text_block}
 ### About MyCity?
+
 MyCity is the most international city in Mars, as it is where the Global seat of the UN is based. Even the International People's Group directs its humanitarian campaigns from here. Besides being a congress city, MyCity is also a centre for culture and history, for trade fairs and exhibitions.
 
 A rewarding excursion destination is Mount XYZ, which is situated in neighboring Jupiter The cableway lifts visitors to an altitude of 1100 metres in less than five minutes, giving rise to outstanding vistas across the MyCity, ABC horizons and XYC landscapes
@@ -47,8 +47,6 @@ satRday MyCity will be taking place at MyCity, MyCountry on the 21st September, 
 This is a full width text or image section
 :::
 
-
 ::: {#sponsors .g-col-12}
 :::
-
 :::
