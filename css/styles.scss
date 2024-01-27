@@ -1,12 +1,12 @@
 /*-- scss:defaults --*/
 
 $body-bg:    #fff;
-$primary:    #2165b6;
-$countdown-bg: rgba($primary, .2);
+$primary:    #0a3263; // the darker the better
+$countdown-bg: rgba($primary, .15);
 $countdown-color: #5d5d76;
 $banner-img: './img/banner-img.jpg';
 $banner-text-position: center;
-$title-bg-img: './img/background.png';
+$title-bg-img: './img/background.jpg';
 
 
 
@@ -16,14 +16,24 @@ body {
   background: $body-bg;
 }
 
-.navbar ul.dropdown-menu {
-	margin-top: 10px;
-	padding-bottom: 0;
+.grid {
+  margin-top: -10px !important;
 }
 
-.headroom-target, header.headroom {
-	border-bottom: 1px solid #ddd;
-	background:rgba($primary, .15);
+.navbar {
+  --bs-navbar-padding-y: 0.1rem;
+}
+
+.navbar ul.dropdown-menu {
+	margin-top: 5px;
+	padding-bottom: 0;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+	color: var(--bs-navbar-active-color);
+	border-bottom: $primary 2px solid;
+}
+#quarto-header nav {
+  background: white !important;
 }
 
 .title {
@@ -33,15 +43,23 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   color: white; 
-  padding: 10px; 
-  font-weight: 450;
-  min-height: 220px;
+  padding: 10px;
+  min-height: 250px;
+  display: grid;
+  justify-content: initial;
+  align-content: center;
+}
+
+.title h1 {
+  font-size: 3.5rem !important;
+  font-weight: 510;
+  line-height: 1.2;
 }
 
 .text_block {
   padding: 20px;
   font-size: 0.95rem;
-  background: rgba($primary, .08);
+  background: rgba($primary, .06);
   margin-left: 5%;
   border-radius: 5px;
 }
@@ -50,7 +68,7 @@ body {
 .full_text_block {
   padding: 20px;
   font-size: 0.95rem;
-  background: rgba($primary, .08);
+  background: rgba($primary, .06);
   margin-left: 2.5%;
   margin-right: 2.5%;
   border-radius: 5px;
@@ -71,13 +89,15 @@ body {
   display: grid;
   
 }
-#banner h1 {
+#banner h1, 
+#banner_small h1 {
   font-size: 4.5rem !important;
   font-weight: 510;
   line-height: 1.2;
 }
 
-#banner h2 {
+#banner h2, 
+#banner_small h2 {
   font-size: 2.5rem !important;
   font-weight: 400;
   border: none;
@@ -97,7 +117,22 @@ body {
     align-content: $banner-text-position;
 }
 
-#banner h3 {
+#banner_small {
+  background: $primary; 
+  color: white; 
+  padding: 40px; 
+  min-height: 300px;
+  background: linear-gradient($primary, rgba(0, 0, 0, 0.5)),url($banner-img) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient($primary, rgba(0, 0, 0, 0.5)), url($banner-img) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    justify-content: $banner-text-position;
+    align-content: $banner-text-position;
+}
+
+#banner h3, 
+#banner_small h3 {
   font-size: 2.5rem !important;
   border-top: 3px solid rgba(white, .5);
   border-bottom: 3px solid rgba(white, .5);
@@ -112,27 +147,6 @@ footer.footer .nav-footer, #quarto-header nav {
 	min-height: 50px;
 	background: rgba($primary, .18);
 }
-
-#countdown li {
-  display: inline-block; 
-  font-size: 1.2em;
-  list-style-type: none;
-  padding:0.8em; 
-  border-right: 1px solid #d4d0d0;
-}
-
-.countdown_date {
-  display:block;
-  font-size: 2.3em;
-  font-weight:bold;
-}
-
-#headline {
-  color:#5d5d76; 
-  font-size:1.3em; 
-  font-weight:bold;
-}
-
 
 /* Sponsors */
 
@@ -265,6 +279,26 @@ footer.footer .nav-footer, #quarto-header nav {
   align-items: center;
   color: $countdown-color; 
   text-align:center;
-  margin-top:-1.25em;
+  margin-top: -1.25em;
   margin-bottom: 0.5em;
+}
+
+#countdown li {
+  display: inline-block; 
+  font-size: 1.2em;
+  list-style-type: none;
+  padding:0.8em; 
+  border-right: 1px solid rgba($primary, .18);
+}
+
+.countdown_date {
+  display:block;
+  font-size: 2.3em;
+  font-weight:bold;
+}
+
+#headline {
+  color: rgba($primary, .6); 
+  font-size:1.3em; 
+  font-weight:bold;
 }
