@@ -4,11 +4,15 @@
     "items": []
   },
   {
+    "listing": "/index.html",
+    "items": []
+  },
+  {
     "listing": "/about/sponsors/index.html",
     "items": []
   },
   {
-    "listing": "/index.html",
+    "listing": "/index2.html",
     "items": []
   },
   {
@@ -17,10 +21,6 @@
   },
   {
     "listing": "/program/speakers/index.html",
-    "items": []
-  },
-  {
-    "listing": "/index2.html",
     "items": []
   }
 ]
