@@ -20,7 +20,7 @@ listing:
 ::: {#banner .g-col-12}
 # satRday MyCity
 
-### 21 September, 2023 {style="max-width: fit-content; max-width: -moz-fit-content;"}
+### 21 September, 2026 {style="max-width: fit-content; max-width: -moz-fit-content;"}
 
 #### Come join us live \@ Pixi Hotel MyCity
 :::
