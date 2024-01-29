@@ -12,23 +12,26 @@ To use this template, install R and [Quarto](https://quarto.org/docs/get-started
 
 If you use RStudio as your IDE, typing `quarto preview` in the terminal starts the preview server and shows the home page on your browser.
 
-To render the website, type `quarto render` in the terminal and all the `.qmd` files are rendered to `.html` files. The HTML files that are produced after rendering the Quarto documents can be previewed in the `docs` folder. This template can be previewed at: https://satrdays.github.io/quarto-satrdays-template/
+To render the website, type `quarto render` in the terminal and all the `.qmd` files are rendered to `.html` files. The HTML files that are produced after rendering the Quarto documents are located in the `docs` folder. 
+
+This template can be previewed at: https://satrdays.github.io/quarto-satrdays-template/
 
 ![image](https://github.com/satRdays/quarto-satrdays-template/assets/11357251/869cd9a5-fc4b-466d-9b6e-15d5176eb9fd)
 
 ## Design
 
-The template is designed to make setting up a satRday website in very few hours.
+The template is designed to make setting up a satRday website easy and in very few hours.
+
 
 ### Title, Menu and Footer
 
-Locate `_quarto.yml` to customize the website title, menu and footer information
+Locate `_quarto.yml` to customize the website title, menu and footer information.
 
 ### Styling/Customization
 
-The styles for this template is located in a `css/styles.scss` file. The purpose for `scss` is so that we can declare and variables that could be easily reused. This makes it possible to change the entire theme-color of the website easily, as well as the banner images, etc.
+The styles for this template is located in a `css/styles.scss` file. The purpose for using `scss` is so that we can declare variables that could be easily reused within the stylesheet. This makes it possible to change the entire theme-color of the website easily, as well as the banner images, etc.
 
-To change the default styling variables, locate the scss defaults in the `css/styles.scss` file and modify these variables to customize the general styling of the website:
+To change the default styling variables, locate the `scss` defaults in the `css/styles.scss` file and modify these variables to customize the general styling of the website:
 
 ```         
 /*-- scss:defaults --*/
@@ -70,6 +73,7 @@ The advantage of this approach is: the website developer can define the speaker 
 
 It is possible to add multiple listings on one page (e.g. having speakers, sponsors, etc on one page)
 
+
 ### Deployment
 
-The resulting output after `quarto render` is a bunch of static files that are located in the `docs` folder. These files could be deployed using GitHub Pages or Netlify or on any other web server of the users' choice
+The resulting output after `quarto render` is a bunch of static files that are located in the `docs` folder. These files could be deployed using GitHub Pages or Netlify or on any other web server of the users' choice.
