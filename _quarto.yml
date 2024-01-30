@@ -55,7 +55,7 @@ format:
   html:
     theme: 
       light: [cosmo, css/styles.scss]
-      dark: darkly
+      #dark: darkly
     page-layout: custom
     toc: false
 
